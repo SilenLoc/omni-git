@@ -1,0 +1,15 @@
+[package]
+name = "omni-git"
+version = "0.0.3"
+edition = "2021"
+description = "omni-git"
+license = "Apache-2.0"
+keywords = ["frontend"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = "0.20.1"
+# You only need serde if you want app persistence:
+serde = { version = "1", features = ["derive"] }
+
