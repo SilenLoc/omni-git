@@ -47,7 +47,7 @@ release *args:
 check-all:
 	cargo fmt --all --check
 	cargo clippy -- -D warnings
-	cargo check --all-features --lib --target wasm32-unknown-unknown
+	cargo check --all-features --lib
 
 git message:
 	cargo fmt
